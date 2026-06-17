@@ -1,0 +1,8 @@
+# Распакуй velostore.zip
+cd velostore
+git init
+git add .
+git commit -m "feat: velostore bicycle store app"
+git branch -M main
+git remote add origin https://github.com/<твой-логин>/velostore.git
+git push -u origin main
